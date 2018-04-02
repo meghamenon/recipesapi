@@ -1,0 +1,25 @@
+{
+  "name": "recipesapi",
+  "version": "1.0.0",
+  "description": "a collection of awesome recipes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meghamenon/recipesapi.git"
+  },
+  "author": "megha menon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meghamenon/recipesapi/issues"
+  },
+  "homepage": "https://github.com/meghamenon/recipesapi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12"
+  }
+}
